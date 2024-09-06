@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - PhotoFusion: All in One Photo Editor</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="manifest" href="../../manifest.json">
+    <meta name="theme-color" content="#007bff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N2PN8MEEQV"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-N2PN8MEEQV');
+</script>
+
+<body>
+    <div id="navbar">
+            <a class="logo" href="../../index.html">
+                <img src="logo.png" alt="Logo" style="width:40px;">
+            </a>
+            <a id="header-link" href="../../index.html">
+                <span class="title">PhotoFusion</span>
+            </a>
+
+        <div>
+            <a href="../../index.html">Resizer</a>
+            <a href="cropper.html">Cropper</a>
+            <a href="rotator.html">Rotator</a>
+            <a href="filter.html">Filters</a>
+            <a href="converter.html">Format Converter</a>
+            <a href="background-remover.html">Background Remover</a>
+            <a href="watermarker.html">Watermarker</a>
+            <a href="thumbnail-generator.html">Thumbnail Generator</a>
+            <a href="sound-remover.html">Sound Remover</a>
+            <a href="about.html" style="text-decoration: underline; color: orangered">About</a>
+            <button id="dark-mode-toggle" onclick="toggleDarkMode()">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="about-content">
+            <h1>About PhotoFusion</h1>
+            PhotoFusion is an innovative and user-friendly online platform designed to cater to all your photo editing needs. Whether you're a professional photographer or just someone looking to enhance personal photos, PhotoFusion provides a comprehensive set of tools to help you achieve the perfect image.
+            <p></p>
+            With PhotoFusion, you can easily resize, crop, and rotate images, apply a variety of filters, remove backgrounds, and add watermarks. Additionally, the platform offers features like thumbnail generation, image format conversion, and even sound removal for multimedia files. Built with the latest web technologies, including HTML, CSS, JavaScript, and Python, PhotoFusion ensures a seamless and efficient editing experience.
+            <p></p>
+            Our mission is to make photo editing accessible and straightforward, enabling users to create stunning visuals with minimal effort. Whether you're working on a single image or a batch of photos, PhotoFusion is here to make the process smooth and enjoyable.
+            <p></p>
+            <button onclick="window.location.href = '../../index.html'" id="backHomeBtn">Back to Home</button>
+        </div>
+    </div>
+
+    
+
+    <script src="../js/about.js"></script>
+</body>
+</html>
